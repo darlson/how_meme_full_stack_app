@@ -1,7 +1,11 @@
+// const axios = require('axios')
+import axios from 'axios'
+
 const initialState = {
     favorited: []
 }
 
+const ADD_FAVORITE = "ADD_FAVORITE"
 const DELETE_FAVORITE = "DELETE_FAVORITE"
 
 export const favorited = (memeInfo) => {
